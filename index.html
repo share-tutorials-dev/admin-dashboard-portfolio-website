@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Admin Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <!-- Header -->
+        <header class="header" id="header">
+            <div class="header_logo " >
+                <i class="header_collapse-btn fas fa-align-left"></i>
+                <img class="logo_img" src="assets/img/logo.png"alt="greatweb"
+                />
+            </div>
+            <div class="header_search">
+                <i class="header_search-icon fas fa-search"></i>
+                <input class="header_search-input"type="text"placeholder="Search"/>
+            </div>
+            <div class="header_profile ">
+                <div class="header_profile-imgWrapper ">
+                    <img class="header_profile-img" src="assets/img/avatar.jpg" alt=""/>
+                </div>
+                <p class="header_profile-name">
+                    Zander Ford
+                </p>
+                
+            </div>
+            <div class="nav__btns" >
+                <!--====== THEME CHANGE BUTTON ======-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps "></i>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Header Profile -->
+        <div>
+            <span class="header_profile-name--nav">
+                <span class="header_profile-name--nav--pointer">
+                    <i class="fas fa-sort-up"></i>
+                </span>
+                <ul class="header_profile-name--nav--list">
+                    <li class="header_profile-name--nav--item">
+                        <a class="header_profile-name--nav--link" href="#">
+                            Profile 
+                        </a>
+                    </li>
+                    <li class="header_profile-name--nav--item">
+                        <a class="header_profile-name--nav--link" href="#">
+                            Message 
+                        </a>
+                    </li>
+                    <li class="header_profile-name--nav--item">
+                        <a class="header_profile-name--nav--link" href="#">
+                            Logout 
+                        </a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+        <!-- End Profile Header -->
+
+        <!-- Nav Main -->
+        <nav class="nav">
+            <div class="nav_wrapper">
+                <span class="nav_close">
+                    <i class="fas fa-window-close"></i>
+                </span>
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a class="nav_link nav__active" href="#">
+                            <span class="nav_link--span--icon">
+                                <i class="fas fa-home nav__link--icon"> </i>
+                            </span>
+                            <span class="nav_link--span--navname">
+                                Home
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link " href="#">
+                            <span class="nav_link--span--icon">
+                                <i class="fas fa-home nav__link--icon"> </i>
+                            </span>
+                            <span class="nav_link--span--navname">
+                                About Us
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link " href="#">
+                            <span class="nav_link--span--icon">
+                                <i class="fas fa-home nav__link--icon"> </i>
+                            </span>
+                            <span class="nav_link--span--navname">
+                                Skills
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link " href="#">
+                            <span class="nav_link--span--icon">
+                                <i class="fas fa-home nav__link--icon"> </i>
+                            </span>
+                            <span class="nav_link--span--navname">
+                                Education
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link " href="#">
+                            <span class="nav_link--span--icon">
+                                <i class="fas fa-home nav__link--icon"> </i>
+                            </span>
+                            <span class="nav_link--span--navname">
+                                Experience
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link " href="#">
+                            <span class="nav_link--span--icon">
+                                <i class="fas fa-home nav__link--icon"> </i>
+                            </span>
+                            <span class="nav_link--span--navname">
+                                Project
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link " href="#">
+                            <span class="nav_link--span--icon">
+                                <i class="fas fa-home nav__link--icon"> </i>
+                            </span>
+                            <span class="nav_link--span--navname">
+                                Services
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link " href="#">
+                            <span class="nav_link--span--icon">
+                                <i class="fas fa-home nav__link--icon"> </i>
+                            </span>
+                            <span class="nav_link--span--navname">
+                                Testimonial
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link " href="#">
+                            <span class="nav_link--span--icon">
+                                <i class="fas fa-home nav__link--icon"> </i>
+                            </span>
+                            <span class="nav_link--span--navname">
+                                Messages
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link " href="#">
+                            <span class="nav_link--span--icon">
+                                <i class="fas fa-home nav__link--icon"> </i>
+                            </span>
+                            <span class="nav_link--span--navname">
+                                Users
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link " href="#">
+                            <span class="nav_link--span--icon">
+                                <i class="fas fa-home nav__link--icon"> </i>
+                            </span>
+                            <span class="nav_link--span--navname">
+                                Setting
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <!-- End Nav Main -->
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!-- Side Nav Dummy-->
+            <div class="main__sideNav"></div>
+            <!-- End Side Nav -->
+            <!-- Main Content -->
+            <div class="main__content">
+                <!-- ==================-->
+                <!-- Overview Page -->
+                <section class="overview" id="overview">
+                    <div class="overview_left">
+                        <div class="overview_analyse">
+                            <canvas id="chart" width="1228" height="614" style="display: block; box-sizing: border-box; height: 614px; width: 100%;"></canvas>
+                        </div>
+                        <div class="titlebar">
+                            <div class="titlebar_item">
+                                <h1>Skills</h1>
+                            </div>
+                            <div class="titlebar_item">
+                                
+                            </div>
+                        </div>
+                        <div class="overview_skills">
+                            <div class="overview_skills-title">
+                                <h3>Frontend developer</h3>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">HTML</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_html"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">CSS</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">JavaScript</h3>
+                                    <span class="skills_number">75%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="overview_skills">
+                            <div class="overview_skills-title">
+                                <h3>Backend developer</h3>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">PHP</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_html"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Node Js</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Python</h3>
+                                    <span class="skills_number">75%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Ruby</h3>
+                                    <span class="skills_number">75%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="overview_skills">
+                            <div class="overview_skills-title">
+                                <h3>Designer</h3>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Figma</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_html"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Sketch</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Adobe XD</h3>
+                                    <span class="skills_number">75%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Photoshop</h3>
+                                    <span class="skills_number">75%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overview_right">
+                        <div class="titlebar">
+                            <div class="titlebar_item">
+                                <h1>Overview Dashboard</h1>
+                            </div>
+                            <div class="titlebar_item">
+                                
+                            </div>
+                        </div>
+
+                        <!-- TOP CARDS -->
+                        <div class="overview_cards">
+                            <div class="overview_cards-item">
+                                <div class="overview_data">
+                                    <p>Skills</p>
+                                    <span>16</span>
+                                </div>
+                                <div class="overview_link">
+                                    <span></span>
+                                    <a href="#">View Reports</a>
+                                </div>
+                            </div>
+                            <div class="overview_cards-item">
+                                <div class="overview_data">
+                                    <p>Educations</p>
+                                    <span>16</span>
+                                </div>
+                                <div class="overview_link">
+                                    <span></span>
+                                    <a href="#">View Reports</a>
+                                </div>
+                            </div>
+                            <div class="overview_cards-item">
+                                <div class="overview_data">
+                                    <p>Experience</p>
+                                    <span>16</span>
+                                </div>
+                                <div class="overview_link">
+                                    <span></span>
+                                    <a href="#">View Reports</a>
+                                </div>
+                            </div>
+                            <div class="overview_cards-item">
+                                <div class="overview_data">
+                                    <p>Services</p>
+                                    <span>16</span>
+                                </div>
+                                <div class="overview_link">
+                                    <span></span>
+                                    <a href="#">View Reports</a>
+                                </div>
+                            </div>
+                            <div class="overview_cards-item">
+                                <div class="overview_data">
+                                    <p>Projects</p>
+                                    <span>9</span>
+                                </div>
+                                <div class="overview_link">
+                                    <span></span>
+                                    <a href="#">View Reports</a>
+                                </div>
+                            </div>
+                            <div class="overview_cards-item">
+                                <div class="overview_data">
+                                    <p>Testimonials</p>
+                                    <span>9</span>
+                                </div>
+                                <div class="overview_link">
+                                    <span></span>
+                                    <a href="#">View Reports</a>
+                                </div>
+                            </div>
+                            <div class="overview_cards-item">
+                                <div class="overview_data">
+                                    <p>Messages</p>
+                                    <span>9</span>
+                                </div>
+                                <div class="overview_link">
+                                    <span></span>
+                                    <a href="#">View Reports</a>
+                                </div>
+                            </div>
+                            <div class="overview_cards-item">
+                                <div class="overview_data">
+                                    <p>Users</p>
+                                    <span>9</span>
+                                </div>
+                                <div class="overview_link">
+                                    <span></span>
+                                    <a href="#">View Reports</a>
+                                </div>
+                            </div>
+                           
+                            
+                        </div>
+                        <!-- MEDIUM CARDS -->
+                        <div class="overview_table">
+                            <div class="overview_table-title">
+                                <div class="titlebar">
+                                    <div class="titlebar_item">
+                                        <h1>Latest Projects</h1>
+                                    </div>
+                                    <div class="titlebar_item">
+                                        
+                                    </div>
+                                </div>
+                                <div class="table">
+                                    <div class="overview_table-header">
+                                       <p>Image</p> 
+                                       <p>Product</p>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio2.jpg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio3.jpg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="overview_table-title">
+                                <div class="titlebar">
+                                    <div class="titlebar_item">
+                                        <h1>Latest Testimonials</h1>
+                                    </div>
+                                    <div class="titlebar_item">
+                                        
+                                    </div>
+                                </div>
+                                <div class="table">
+                                    <div class="overview_table-header">
+                                       <p>Image</p> 
+                                       <p>Product</p>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                    <div class="overview_table-items" >
+                                        <img src="assets/img/portfolio1.jpeg" style="height:50px;width:50px;" />
+                                        <a>Product item.name item.name item.name</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </section>
+                
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+         
+        </footer>
+        
+        <!--==================== CHART JS ====================-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
