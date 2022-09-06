@@ -1,8 +1,8 @@
-# Responsive Portfolio Website 🎍 
+# Responsive admin Portfolio Website 
 ## [Watch it on youtube](https://www.youtube.com/channel/UCgME7xUx_PrCdphF2k8bupg?app=desktop)
-### Responsive Portfolio Website 🎍
+### Responsive admin Portfolio Website 
 
-- Responsive Portfolio Website Using HTML, CSS and JavaScript.
+- Responsive admin Portfolio Website Using HTML, CSS and JavaScript.
 - Contains animations when scrolling.
 - Includes a dark and light mode.
 - Developed first with the Mobile First methodology, then for desktop.
