@@ -88,6 +88,9 @@ html {
   box-sizing: inherit;
 }
 
+h1, h2, h3, h4, h5, h6,p,a {
+  color: #454f5b;
+}
 
 body {
   height: calc(100vh - 100px);
@@ -511,6 +514,27 @@ main {
   
 }
 
+/*==================== End overview Table ====================*/
+
+/*==================== BUTTONS ====================*/
+.btn {
+  border:1px solid #6a727a;
+  padding: 9px 15px;
+  border-radius: 4px;
+  background: #FFF;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f1f1f1;
+  color:#6a727a;
+}
+
+.btn-secondary {
+  background: linear-gradient(to bottom, #6371c7, #5563c1);
+  color: white;
+}
 .btn-icon {
   border: 1px solid #e0e0e0;
   background: none;
@@ -531,80 +555,90 @@ main {
   color: white;
 }
 
-/*==================== End Table ====================*/
-.my-3 {
-margin-top: 30px;
-margin-bottom: 30px;
+/*==================== END BUTTONS ====================*/
+
+/*==================== REUSEABLE ====================*/
+.titlebar {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 10px;
 }
 
-.home__cards {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-grid-gap: 20px;
+.titlebar_item,h1,button {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.home__cards--item {
-
+/*==================== REUSEABLE ====================*/
+.card_wrapper {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 290px);
+  grid-gap: 20px;
+}
+.card {
+  background: white;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 6px 13px -12px rgb(50 50 93 / 20%), 0 3px 7px -3px rgb(110 110 110 / 10%);
+  border-radius: 4px;
 }
 
+.input {
+  padding: 9px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  width: 100%;
+}
 
+.card,p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-/*==================== NAV ====================*/
+.card,input {
+  padding: 9px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  width: 100%;
+}
 
+.card,textarea {
+  padding: 9px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1.1rem;
+  font-family: 'Open Sans', 'Helvetica News', sans-serif;
+}
 
-/*==================== ASIDE & SIDEBAR ====================*/
+.hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
-
-
-
-
-/*====================  MONTHELY REPORT ====================*/
-
-
-
-/*====================  FAST PAYMENT ====================*/
-
-
-/*====================  RECENT TRANSACTION ====================*/
-
-
-
-/*==================== MEDIA QUERIES ====================*/
-
-/*========== Variables Dark theme ==========*/
-
-
-/*========== Button Dark/Light ==========*/
-
-
-/*==================== BASE ====================*/
-
-
-/*==================== REUSABLE CSS CLASSES ====================*/
-
-
-/*==================== LAYOUT ====================*/
-
-
-/*==================== NAV ====================*/
-
-
-/* show menu */
-
-
-/* Active link */
-
-
-/* Change background header */
-
-
-/*==================== HOME ====================*/
-
-
-/*==================== BUTTONS ====================*/
-
+.br {
+  margin-top: 40px;
+}
 
 /*==================== ABOUT ====================*/
+
+.about_container {
+  max-width: 968px;
+  margin-top: 1rem;
+  margin: 0 auto;
+}
+
+.avatar_profile{
+  display: flex;
+  justify-content: center;
+}
+
+.avatar_profile_img{
+  width: 200px;
+  height: 200px;
+  border: 50%;
+}
 
 
 /*==================== SKILLS ====================*/
