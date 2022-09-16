@@ -570,25 +570,108 @@ main {
   margin-bottom: 10px;
 }
 
-/*==================== REUSEABLE ====================*/
+.table {
+  background: #FFF;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.table_filter {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.table_filter-Btn {
+  display: none;
+}
+
+.table_filter-list {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.table_filter-link {
+  margin-right: 1rem;
+}
+
+.table_filter-link--active {
+  color: #006fbb;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+}
+
+.table_search {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: minmax(150px, auto) minmax(180px, 1fr);
+}
+
+.table_search-wrapper {
+  position: relative;
+}
+
+.table_search-select {
+  appearance: none;
+  background: #eeeeee;
+  color: #6a727a;
+  width: 100%;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.relative {
+  position: relative;
+}
+
+.table_search-input--icon {
+  top: 12px;
+  left: 2px;
+  color: #d4d4d4;
+  position: absolute;
+}
+
+.table_search-input {
+  width: 100%;
+  border: none;
+  color: #454f5b;
+  border-top: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 40px;
+ 
+}
+
 .card_wrapper {
   display: grid;
   grid-template-columns: 1fr minmax(auto, 290px);
   grid-gap: 20px;
 }
+
 .card {
   background: white;
   padding: 20px 20px 20px 20px;
   border: 1px solid #e0e0e0;
   box-shadow: 0 6px 13px -12px rgb(50 50 93 / 20%), 0 3px 7px -3px rgb(110 110 110 / 10%);
   border-radius: 4px;
-}
-
-.input {
-  padding: 9px 15px;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  width: 100%;
 }
 
 .card,p {
@@ -640,6 +723,113 @@ main {
   border: 50%;
 }
 
+/*==================== SERVICES ====================*/
+.services_container {
+  margin-top: 1rem;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.service_table-heading {
+  padding: 0 20px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 200px 50px 1fr 100px;
+  color: #808891;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+  margin-top: 15px;
+}
+
+.service_table-items {
+  padding: 5px 20px !important;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 200px 50px 1fr 100px;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0.6rem 0;
+}
+
+.service_table-icon {
+  background: #5563c1;
+  color: #FFF;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+}
+
+/*========== MODAL ==========*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 10%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #454f5b;
+}
+
+.show {
+  display: block !important;
+}
+
+.modal__content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 2px 15px rgb(35 40 47 / 25%);
+  position: relative;
+  border: none;
+  border-radius: 7px;
+}
+
+.modal__close {
+  color: #aaaaaa;
+  font-size: 28px;
+  font-weight: bold;
+  top: 5px;
+  right: 15px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.modal__title {
+  margin-bottom: 20px; 
+  
+}
+.modal_line {
+  border:1px solid #e0e0e0;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.modal__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.model__footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
 
 /*==================== SKILLS ====================*/
 
@@ -647,11 +837,10 @@ main {
 /*==================== QUALIFICATION ====================*/
 
 
-/*==================== SERVICES ====================*/
+
 
 
 /* Active Modal */
-
 
 /*==================== PORTFOLIO ====================*/
 

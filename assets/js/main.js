@@ -145,7 +145,7 @@ variantOptionInput.forEach((input) => {
 //         variantOptionTagsWrapper.style.border = '2px solid #5463c1';
 //     });
 // });
-
+/*
 const chart = document.querySelector("#chart").getContext('2d');
 
 //create a new chart instance
@@ -173,7 +173,7 @@ new Chart(chart, {
         responsive: true
     }
 })
-
+*/
 /*==================== DARK LIGHT THEME ====================*/ 
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
@@ -203,3 +203,29 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+
+
+// Start Add/Edit modal button - invoice
+const showAddModal = document.querySelector(
+    '.main__modal'
+);
+const toggleShowModal = document.querySelector(
+    '.btn__open--modal'
+);
+const closeShowModal = document.querySelectorAll(
+    '.btn__close--modal'
+);
+
+toggleShowModal.addEventListener('click', () => {
+    showAddModal.classList.toggle('show');
+});
+
+closeShowModal.forEach((btn) => {
+    btn.addEventListener('click', () => {
+        showAddModal.classList.toggle('show');
+    });
+});
+
+// End Add/Edit modal button - invoice
