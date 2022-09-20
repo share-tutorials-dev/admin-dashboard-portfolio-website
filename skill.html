@@ -216,7 +216,7 @@
                             <h1>Skills </h1>
                         </div>
                         <div class="titlebar_item">
-                            <div class="btn btn-secondary">
+                            <div class="btn btn__open--modal">
                                 New Skill
                             </div>
                         </div> 
@@ -277,6 +277,34 @@
 
                     </div>
                     
+                </div>
+                <!-------------- SERVICES MODAL --------------->
+                <div class="modal main__modal " >
+                    <div class="modal__content">
+                        <span class="modal__close btn__close--modal" >×</span>
+                        <h3 class="modal__title">Add Skill</h3>
+                        <hr class="modal_line"><br>
+                        <div>
+                            <p>Name</p>
+                            <input type="text" class="input" />
+
+                            <p>Proficiency</p>
+                            <input type="text" class="input" />
+                           
+                            <p>Service</p>
+                            <select class="inputSelect" name="" id="">
+                                <option value="">Front-end developer</option>
+                                <option value="">Backend developer</option>
+                            </select>
+                        </div>
+                        <br><hr class="modal_line">
+                        <div class="model__footer">
+                            <button class="btn mr-2 btn__close--modal" @click="closeModal()">
+                                Cancel
+                            </button>
+                            <button class="btn btn-secondary btn__close--modal ">Save</button>
+                        </div>
+                    </div>
                 </div>
             </section>
 

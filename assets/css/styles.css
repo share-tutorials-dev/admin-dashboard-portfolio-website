@@ -704,6 +704,15 @@ ul {
   margin-top: 40px;
 }
 
+.inputSelect {
+  padding: 9px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  width: 100%;
+  color: #454f5b;
+  min-width: 200px;
+}
+
 /*==================== ABOUT ====================*/
 
 .about_container {
