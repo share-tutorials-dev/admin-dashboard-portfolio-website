@@ -136,7 +136,7 @@
                                 <i class="fas fa-home nav__link--icon"> </i>
                             </span>
                             <span class="nav_link--span--navname">
-                                Experience
+                                Experiences
                             </span>
                         </a>
                     </li>
@@ -208,16 +208,16 @@
                
                 
 
-            <!--==================== EDUCATIONS ====================-->
-            <section class="educations section" id="educations">
+            <!--==================== EXPERIENCES ====================-->
+            <section class="experiences section" id="experiences">
                 <div class="skills_container">
                     <div class="titlebar">
                         <div class="titlebar_item">
-                            <h1>Educations </h1>
+                            <h1>Experiences </h1>
                         </div>
                         <div class="titlebar_item">
                             <div class="btn btn__open--modal">
-                                New Education
+                                New Experience
                             </div>
                         </div> 
                     </div>
@@ -247,20 +247,18 @@
                             </div>
                             <div class="relative">
                                 <i class="table_search-input--icon fas fa-search "></i>
-                                <input class="table_search--input" type="text" placeholder="Search Education">
+                                <input class="table_search--input" type="text" placeholder="Search Experience">
                             </div>
                         </div>
             
-                        <div class="education_table-heading">
-                            <p>Institution</p> 
+                        <div class="experience_table-heading">
+                            <p>Company</p> 
                             <p>Period</p>
-                            <p>Degree</p>
-                            <p>Department</p>
+                            <p>Position</p>
                             <p>Actions</p>
                         </div>
                         <!-- item 1 -->
-                        <div class="education_table-items">
-                            <p>Backend Developer</p>
+                        <div class="experience_table-items">
                             <p>Backend Developer</p>
                             <p>Backend Developer</p>
                             <p>Backend Developer</p>
@@ -277,29 +275,26 @@
                     </div>
                     
                 </div>
-                <!-------------- EDUCATION MODAL --------------->
+                <!-------------- EXPERIENCE MODAL --------------->
                 <div class="modal main__modal " >
                     <div class="modal__content">
                         <span class="modal__close btn__close--modal" >×</span>
-                        <h3 class="modal__title">Add Education</h3>
+                        <h3 class="modal__title">Add Experience</h3>
                         <hr class="modal_line"><br>
                         <div>
-                            <p>Institution</p>
+                            <p>Company</p>
                             <input type="text" class="input" />
 
                             <p>Period</p>
                             <input type="text" class="input" />
 
-                            <p>Degree</p>
-                            <input type="text" class="input" />
-
-                            <p>Department</p>
+                            <p>Position</p>
                             <input type="text" class="input" />
                            
                         </div>
                         <br><hr class="modal_line">
                         <div class="model__footer">
-                            <button class="btn mr-2 btn__close--modal" @click="closeModal()">
+                            <button class="btn mr-2 btn__close--modal">
                                 Cancel
                             </button>
                             <button class="btn btn-secondary btn__close--modal ">Save</button>
