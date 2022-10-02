@@ -208,16 +208,16 @@
                
                 
 
-            <!--==================== EXPERIENCES ====================-->
-            <section class="experiences section" id="experiences">
+            <!--==================== PROJECTS ====================-->
+            <section class="projects section" id="projects">
                 <div class="skills_container">
                     <div class="titlebar">
                         <div class="titlebar_item">
-                            <h1>Experiences </h1>
+                            <h1>Projects </h1>
                         </div>
                         <div class="titlebar_item">
                             <div class="btn btn__open--modal">
-                                New Experience
+                                New Project
                             </div>
                         </div> 
                     </div>
@@ -247,18 +247,22 @@
                             </div>
                             <div class="relative">
                                 <i class="table_search-input--icon fas fa-search "></i>
-                                <input class="table_search--input" type="text" placeholder="Search Experience">
+                                <input class="table_search--input" type="text" placeholder="Search Project">
                             </div>
                         </div>
             
-                        <div class="experience_table-heading">
-                            <p>Company</p> 
-                            <p>Period</p>
-                            <p>Position</p>
+                        <div class="project_table-heading">
+                            <p>Image</p> 
+                            <p>Title</p>
+                            <p>Description</p>
+                            <p>Link</p>
                             <p>Actions</p>
                         </div>
                         <!-- item 1 -->
-                        <div class="experience_table-items">
+                        <div class="project_table-items">
+                            <p>
+                                <img src="/assets/img/avatar.jpg" alt="" class="project_img-list">
+                            </p>
                             <p>Backend Developer</p>
                             <p>Backend Developer</p>
                             <p>Backend Developer</p>
@@ -275,30 +279,110 @@
                     </div>
                     
                 </div>
-                <!-------------- EXPERIENCE MODAL --------------->
-                <div class="modal main__modal " >
-                    <div class="modal__content">
-                        <span class="modal__close btn__close--modal" >×</span>
-                        <h3 class="modal__title">Add Experience</h3>
-                        <hr class="modal_line"><br>
-                        <div>
-                            <p>Company</p>
-                            <input type="text" class="input" />
-
-                            <p>Period</p>
-                            <input type="text" class="input" />
-
-                            <p>Position</p>
-                            <input type="text" class="input" />
-                           
+            </section>
+             <!--===================ADD PROJECT ====================-->
+             <section class="about section" id="project">
+                <div class="about_container">
+                    <div class="titlebar">
+                        <div class="titlebar_item">
+                            <h1>Add Project</h1>
                         </div>
-                        <br><hr class="modal_line">
-                        <div class="model__footer">
-                            <button class="btn mr-2 btn__close--modal">
-                                Cancel
-                            </button>
-                            <button class="btn btn-secondary btn__close--modal ">Save</button>
+                        <div class="titlebar_item">
+                            <div class="btn btn-secondary">
+                                Save Project
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="card_wrapper">
+                        <div class="wrapper_left">
+                            <div class="card">
+
+                                <p>Title</p>
+                                <input type="text" class="input" />
+
+                                <p>Description</p>
+                                <textarea cols="10" rows="5"  ></textarea>
+
+                                <p>Link</p>
+                                <input type="text" class="input" />
+                                    
+                            </div>
                         </div>
+                        
+                        <div class="wrapper_right ">
+                            <div class="card">
+                                <div class="project_img-container">
+                                 <img src="/assets/img/avatar.jpg" alt="" class="project_img">
+                                </div>
+                                <br>
+                                <input type="file" id="fileimg" />   
+                                <br><br><br>
+                            </div>    
+                        </div>
+                        
+                    </div>
+                    <div class="titlebar">
+                        <div class="titlebar_item">
+                            
+                        </div>
+                        <div class="titlebar_item">
+                            <div class="btn btn-secondary">
+                                Save Project
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+             <!--===================EDIT PROJECT ====================-->
+             <section class="about section" id="project">
+                <div class="about_container">
+                    <div class="titlebar">
+                        <div class="titlebar_item">
+                            <h1>Edit Project</h1>
+                        </div>
+                        <div class="titlebar_item">
+                            <div class="btn btn-secondary">
+                                Update Project
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="card_wrapper">
+                        <div class="wrapper_left">
+                            <div class="card">
+
+                                <p>Title</p>
+                                <input type="text" class="input" />
+
+                                <p>Description</p>
+                                <textarea cols="10" rows="5"  ></textarea>
+
+                                <p>Link</p>
+                                <input type="text" class="input" />
+                                    
+                            </div>
+                        </div>
+                        
+                        <div class="wrapper_right ">
+                            <div class="card">
+                                <div class="project_img-container">
+                                 <img src="/assets/img/avatar.jpg" alt="" class="project_img">
+                                </div>
+                                <br>
+                                <input type="file" id="fileimg" />   
+                                <br><br><br>
+                            </div>    
+                        </div>
+                        
+                    </div>
+                    <div class="titlebar">
+                        <div class="titlebar_item">
+                            
+                        </div>
+                        <div class="titlebar_item">
+                            <div class="btn btn-secondary">
+                                Update Project
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </section>
