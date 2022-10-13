@@ -1043,8 +1043,54 @@ ul {
   border: 50px;
 }
 
+/*==================== MESSAGES ====================*/
+.messages_container {
+  margin-top: 1rem;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.message_table-heading {
+  padding: 0 20px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 200px 200px 300px 1fr 100px 50px;
+  color: #808891;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+  margin-top: 15px;
+}
 
+.message_table-items {
+  padding: 5px 20px !important;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 200px 200px 300px 1fr 100px 50px;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0.6rem 0;
+}
 
+.badge_read {
+  background: #6fc45f;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.badge_unread {
+  background: #d68a17;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
 
 
 
