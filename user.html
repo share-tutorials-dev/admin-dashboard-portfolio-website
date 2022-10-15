@@ -126,7 +126,7 @@
                                 <i class="fas fa-home nav__link--icon"> </i>
                             </span>
                             <span class="nav_link--span--navname">
-                                Education
+                                Educations
                             </span>
                         </a>
                     </li>
@@ -136,7 +136,7 @@
                                 <i class="fas fa-home nav__link--icon"> </i>
                             </span>
                             <span class="nav_link--span--navname">
-                                Experience
+                                Experiences
                             </span>
                         </a>
                     </li>
@@ -146,7 +146,7 @@
                                 <i class="fas fa-home nav__link--icon"> </i>
                             </span>
                             <span class="nav_link--span--navname">
-                                Project
+                                Projects
                             </span>
                         </a>
                     </li>
@@ -208,15 +208,17 @@
                
                 
 
-            <!--==================== MESSAGES ====================-->
-            <section class="messages section" id="messages">
-                <div class="messages_container">
+            <!--==================== USERS ====================-->
+            <section class="users section" id="users">
+                <div class="users_container">
                     <div class="titlebar">
                         <div class="titlebar_item">
-                            <h1>Messages </h1>
+                            <h1>Users </h1>
                         </div>
                         <div class="titlebar_item">
-                            
+                            <div class="btn btn__open--modal">
+                                New User
+                            </div>
                         </div> 
                     </div>
 
@@ -245,77 +247,74 @@
                             </div>
                             <div class="relative">
                                 <i class="table_search-input--icon fas fa-search "></i>
-                                <input class="table_search--input" type="text" placeholder="Search Message">
+                                <input class="table_search--input" type="text" placeholder="Search User">
                             </div>
                         </div>
             
-                        <div class="message_table-heading">
-                            <p>Name</p> 
-                            <p>Email</p>
-                            <p>Subject</p>
-                            <p>Description</p>
-                            <p>Status</p>
+                        <div class="user_table-heading">
+                            <p>Photo</p> 
+                            <p>Name</p>
+                            <p>Role</p>
                             <p>Actions</p>
                         </div>
                         <!-- item 1 -->
-                        <div class="message_table-items">
-                            <p>Name</p> 
-                            <p>email</p>
-                            <p>subject of message </p>
-                            <p>description description description description description description</p>
+                        <div class="user_table-items">
                             <p>
-                                <span class="badge_read">
-                                    Read
-                                </span>
-                                <span class="badge_unread">
-                                    Unread
-                                </span>
+                                <img src="/assets/img/avatar.jpg" alt="" class="user_img-list">
                             </p>
+                            <p>Backend Developer</p>
+                            <p>Backend Developer</p>
                             <div>
+                                <button class="btn-icon success">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </button>
                                 <button class="btn-icon danger" >
                                     <i class="far fa-trash-alt"></i>
                                 </button>
                             </div>
                         </div>
 
-                    </div>   
+                    </div>
+                    
                 </div>
             </section>
+            <!-------------- USER MODAL --------------->
+            <div class="modal main__modal " >
+                <div class="modal__content">
+                    <span class="modal__close btn__close--modal" >×</span>
+                    <h3 class="modal__title">Add User</h3>
+                    <hr class="modal_line"><br>
+                    <div>
+                        <p>Name</p>
+                        <input type="text" class="input" />
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+                        <p>Email</p>
+                        <input type="text" class="input" />
+                        
+                        <p>Bio</p>
+                        <textarea cols="20" rows="3" class="textarea"></textarea>
+                       
+                        <p>Type</p>
+                        <select class="inputSelect" name="" id="">
+                            <option disabled>Select Role</option>
+                            <option value="admin">Admin</option>
+                            <option value="user">Standard User</option>
+                        </select>
 
-            </section>
+                        <p>Password</p>
+                        <input  type="password" id="password" class="input">
+                    </div>
+                    <br><hr class="modal_line">
+                    <div class="model__footer">
+                        <button class="btn mr-2 btn__close--modal" @click="closeModal()">
+                            Cancel
+                        </button>
+                        <button class="btn btn-secondary btn__close--modal ">Save</button>
+                    </div>
+                </div>
+            </div>
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
-
-            </section>
-
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-            </section>
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-            </section>
-
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-
-            </section>
+           
         </main>
 
         <!--==================== FOOTER ====================-->
